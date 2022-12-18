@@ -1,7 +1,12 @@
 $(document).ready(function(){
+// main-menu.........................................
 
+jQuery('#mobile-menu').meanmenu({
+    meanScreenWidth: "767",
+    meanMenuContainer: '.mobile-menu'
 
-    // slider
+});
+    // slider...............................................
     $('.slider-active').owlCarousel({
         loop:true,
         
@@ -36,10 +41,13 @@ navText:['<i class="fa-sharp fa-solid fa-angle-left"></i>','<i class="fa-sharp f
                 items:1
             },
             600:{
-                items:3
+                items: 2
+            },
+            768:{
+                items: 3
             },
             1000:{
-                items:4
+                items:5
             }
         }
     })
@@ -58,9 +66,19 @@ navText:['<i class="fa-sharp fa-solid fa-angle-left"></i>','<i class="fa-sharp f
             600:{
                 items:1
             },
+
+            768:{
+                items:1
+            },
             1000:{
                 items:1
+            },
+
+            1200:{
+                items:1
             }
+            
+
         }
     })
 

@@ -1,0 +1,251 @@
+@media (min-width: 992px) and (max-width:1200px) {
+.container{width: 970px;}
+.owl-dots { margin-left: 46%;}
+.blog-warper i.fa-sharp.fa-solid.fa-angle-right {
+   
+    top: 17%;
+    
+    right: 177px;
+}
+.blog-warper i.fa-sharp.fa-solid.fa-angle-left {
+    top: 17%;
+}
+.meta h4 {
+    display: none;
+}
+.meta {
+    margin-top: -19px;
+}
+.meta a {
+    text-decoration: none;
+    color: #555555;
+    margin-left: 42px;
+}
+}
+
+
+/* Tablet Desktop */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container{width: 750px; }
+    .main-menu ul li {margin-left: 32px;}
+    .single-feature img { width: 100%;}
+    .feature-content {transform: translateY(101px); width: 100%;}
+    .feature-title h3 {font-size: 13px;}
+    .feature-article p {
+        display: none;
+    }
+    .feature-article {
+        margin: 35px 0;
+    }
+    .feature-area {height: 347px;}
+    .video-article p {
+        margin-top: 3px;
+        line-height: 1;
+    }
+    .video-area {
+        height: 455px;
+    }
+    .col-6-extend{
+        width: 100%;
+    }
+    .blog-warper i.fa-sharp.fa-solid.fa-angle-right {right: 440px;}
+    .meta { float: left;
+        width: 62%;
+        margin-left: 26px;
+        padding-left: -3px;
+        margin-top: 11px;
+    }
+    .Second-footer-widget form button {
+        font-size: 11px;
+    }
+    .Second-footer-widget {
+        margin-left: -5px;
+    }
+    ul.features-list {
+        padding-left: 16px;
+    }
+    .Second-footer-widget h3 {
+        font-size: 16px;
+        color: white;
+        margin-bottom: 40px;
+        margin-top: 5px;
+        text-transform: uppercase;
+        margin-left: -2px;
+    }
+
+
+}
+
+
+/* Small MObile .............................................*/
+
+@media (max-width: 767px) {
+.container{width: 300px;}
+.mean-container a.meanmenu-reveal span {
+    height: 2px;
+    margin-top: -10px;
+}
+.mean-container .mean-bar, .mean-container .mean-bar * {margin: 16px 0;}
+.slider .slider-area h2 {font-size: 49px;}
+.cta-text p {
+    font-size: 12px;
+    padding: 23px 0px;
+}
+.cta-button {
+    float: right;
+    padding: 25px 0px;
+    margin-top: -102px;
+}
+.cta-button a {
+    float: right;
+    border: 2px solid white;
+    padding: 4px 15px;
+    font-size: 15px;
+}
+.owl-dots {
+    margin: -102px;
+    position: absolute;
+    z-index: 9999;
+    margin-left: 43%;
+}
+.col4 {
+    width: 100%;
+    padding: 0 15px;
+    float: left;
+}
+.single-feature {
+    margin-bottom: 37px;
+}
+.feature-area {
+    height: 1053px;
+}
+.cta-area {
+    margin-top: -32px;
+}
+.single-service-content h4 {
+    padding-bottom: 1px;
+}
+.single-service {
+    padding-bottom: 22px;
+}
+.section-title {
+    margin-bottom: 19px;
+}
+.service-area {
+    height: 737px;
+}
+.feature-content {
+    padding: 17px 20px 28px 21px;
+   
+}
+.feature-article p {
+    padding: 10px 0px;
+   
+}
+.feature-content {
+    transform: translateY(228px);
+}
+.col-6 {
+    width: 100%;
+    padding: 0;
+    /* float: left; */
+}
+.video-section-title {
+    margin-bottom: 38px;
+}
+.video-article p {
+    line-height: 1.5;
+    
+}
+.video-area {
+    padding-top: 17px;
+    height: 700px;
+}
+.working-area {
+    height: 323px;
+}
+.working-area {
+    padding-top: 56px;
+}
+.working-button a {
+    
+    /* padding-bottom: 25px; */
+    padding: 10px 27px;
+    font-size: 14px;
+  
+}
+.blog-warper i.fa-sharp.fa-solid.fa-angle-right {
+  
+    top: 11%;
+    /* left: 51px; */
+}
+.blog-image h4 {
+    
+    width: 100%;
+    
+    bottom: -30px;
+}
+.blog-content-article {
+    width: 53%;
+    margin-left: 0px;
+    margin-top: 47px;
+}
+
+.meta {
+    margin-right: 111px;
+}
+.footer-none{
+    display: none;
+}
+.footer-area {
+    padding: 55px;
+}
+.col-3 {
+    width: 33%;
+    padding: 0px 0px;
+    
+}
+
+.footer-area {
+    padding: 55px;
+    float: left;
+}
+.copyright-area {
+    float: left;
+    width: 100%;
+}
+.blog-warper i.fa-sharp.fa-solid.fa-angle-right {
+    top: 60px;
+    right: 0;
+}
+.blog-warper i.fa-sharp.fa-solid.fa-angle-left {
+   
+    top: 60px;
+    left: 229px;
+}
+
+.feature-content {
+    transform: translateY(230px);
+}
+
+}
+
+/* Large Mobile .............................................. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container{
+    width: 450px;
+}
+.video-content {
+    margin-bottom: 14px;
+}
+.single-feature img {
+    width: 100%;
+}
+.feature-content {
+    transform: translateY(258px);
+}
+.feature-content {
+    padding: 46px 20px 32px 42px;
+}
+
+}
